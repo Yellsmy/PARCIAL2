@@ -47,6 +47,7 @@ public class PARCIALII {
                     System.out.println("LA PALABRA NO ES PALÍNDROMO");
                 }
                 puntero.limpiar();
+                puntero.limpiarB();
                 break;             
             case 3:
                 System.out.println("Ingrese dato: ");

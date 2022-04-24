@@ -117,5 +117,20 @@ public class Procedimientos {
         while(cima != null){
             eliminar();
         }        
-    }    
+    }
+    
+    public void eliminar2(){ //Método para eliminar paréntesis de la pila
+        char aux = cima2.dato2;
+        cima2= cima2.siguiente2;
+        tamanio2--;
+        if (cima2.siguiente2 == null){
+            cima2= null;
+            tamanio2= 0;
+        }
+    }
+    public void limpiarB (){
+        while(cima2 != null){
+            eliminar2();
+        }        
+    }
 }
